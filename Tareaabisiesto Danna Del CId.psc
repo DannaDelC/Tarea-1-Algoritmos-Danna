@@ -1,0 +1,21 @@
+Proceso Tareaabisiesto
+	Definir a como Entero;
+    
+    Escribir "Ingrese un año: ";
+    Leer a;
+    
+    Si (a % 4 = 0) Entonces
+        Si (a % 100 = 0) Entonces
+            Si (a % 400 = 0) Entonces
+                Escribir "El año", a, "es bisiesto.";
+            Sino
+                Escribir "El año", a, "no es bisiesto.";
+            FinSi
+        Sino
+            Escribir "El año: ", a, " es bisiesto.";
+        FinSi
+    Sino
+        Escribir "El año: ", a, " no es bisiesto.";
+     FinSi
+    
+FinProceso
